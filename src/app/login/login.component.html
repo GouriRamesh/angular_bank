@@ -3,9 +3,9 @@
     <h1 class="text-center text-white">LOGIN</h1>
     <form action="">
         <div class="input-field">
-        <input (change)="acctnochange($event)"  id="u1" name="uname" class="form-control" type="text" [placeholder]="data1"  style="color: black;"> <br></div >
-        <input (change)="passwrdchange($event)" id="p1" name="pswrd" class="form-control" type="text" placeholder="password"> <br>
-        <button  (click)="login()" type="submit" class="submit" class="mt-2 btn btn-primary">login</button>
+        <input #accno  id="u1" name="uname" class="form-control" type="text" [placeholder]="data1"  style="color: black;"> <br></div >
+        <input #psw id="p1" name="pswrd" class="form-control" type="text" placeholder="password"> <br>
+        <button (click)="login(accno ,psw)" type="submit" class="submit" class="mt-2 btn btn-primary">submit</button>
     </form>
 </div>
 

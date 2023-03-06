@@ -35,4 +35,5 @@ data binding methods
 
       *)html to ts
             a)event binding           (event_name)="method()"  
-            b)$event binding          (event_name)="method($event)"     
+            b)$event binding          (event_name)="method($event)"    
+            c)event binding with template rendering variable        #variableName 

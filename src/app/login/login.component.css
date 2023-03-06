@@ -32,12 +32,12 @@ h3{
     padding: 0 0 0 55px;
    background-color:  rgba(121, 121, 210, 0.434);
 }
-i{
+/* i{
     position: relative;
     top: -33px;
     left: 17px;
     color: antiquewhite;
-}
+} */
 ::-webkit-input-placeholder{
     color: rgb(27, 26, 25);
 }
