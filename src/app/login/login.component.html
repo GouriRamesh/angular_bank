@@ -1,0 +1,41 @@
+<div class="container w-25  p-3 text-center " style="margin-top: 200px; background-color: rgba(121, 121, 210, 0.434); border-radius: 10px;">
+    <span>Have a account?</span>
+    <h1 class="text-center text-white">LOGIN</h1>
+    <form action="">
+        <div class="input-field">
+        <input (change)="acctnochange($event)"  id="u1" name="uname" class="form-control" type="text" [placeholder]="data1"  style="color: black;"> <br></div >
+        <input (change)="passwrdchange($event)" id="p1" name="pswrd" class="form-control" type="text" placeholder="password"> <br>
+        <button  (click)="login()" type="submit" class="submit" class="mt-2 btn btn-primary">login</button>
+    </form>
+</div>
+
+<!-- <div>
+    <h3 class="mt-3">{{data}}</h3>
+</div>
+
+<div class="box container w-25" >
+    <div class="container">
+        <div class="top-header">
+            <span>Have a account?</span>
+            <h3>Login</h3>
+        </div>
+        <div class="input-field">
+            <input (change)="acctnochange($event)"  id="u1" name="uname" type="text" class="input" [placeholder]="data1">
+            <i class="fa-solid fa-user"></i>
+        </div>
+        <div class="input-field">
+            <input (change)="passwrdchange($event)" id="p1" name="pswrd" type="text" class="input" placeholder="Password">
+            <i class="fa-solid fa-lock"></i>
+        </div>
+        <div class="input-field">
+            <button (click)="login()" type="submit" class="submit" >Login</button>
+        </div>
+
+        <div class="bottom">
+            
+            <div class="right">
+                <label for=""><a href="#">Forget password?</a></label>
+            </div>
+        </div>
+    </div>
+</div> -->

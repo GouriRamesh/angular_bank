@@ -1,0 +1,38 @@
+ANGULAR
+-------
+npm-> npm -v
+
+install angular ->         npm install -g @angular/cli@latest
+incomplete installation->  ng i --force
+
+project cmd->              ng new projectname
+
+running cmd->               ng serve --open (ng s -o)
+
+ANGULAR TECHNOLOGY
+------------------
+-HTML 
+-CSS
+-typeScript (strictly typed)
+brower converts typescrpt into js => transpiling
+
+
+root module
+    root component(as amny as possible)
+    sub module
+    parent of sub modules will be root module
+
+working cycle
+-------------
+constuctor->ngOnInit->other methods
+
+data binding methods
+--------------------
+1) one way binding => one directn only
+     *)ts to html=>(component to view)=>
+             a)string interpollatn   {{}}
+             b)property binding      [property_name]="data"
+
+      *)html to ts
+            a)event binding           (event_name)="method()"  
+            b)$event binding          (event_name)="method($event)"     

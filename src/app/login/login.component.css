@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Courgette&family=Dancing+Script&family=EB+Garamond&family=Lobster&family=Lora&family=Merriweather:wght@700&family=Pacifico&family=Poppins&family=Rubik+Vinyl&family=Tangerine&display=swap');
+.box{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 170px;
+    
+}
+span{
+    color: antiquewhite;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 27px 10px 0;
+}
+h3{
+    color: antiquewhite;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 27px 10px 0;
+}
+.input-field{
+  display: flex;
+  flex-direction: column;
+}
+.input{
+    width: 90%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: antiquewhite;
+    padding: 0 0 0 55px;
+   background-color:  rgba(121, 121, 210, 0.434);
+}
+i{
+    position: relative;
+    top: -33px;
+    left: 17px;
+    color: antiquewhite;
+}
+::-webkit-input-placeholder{
+    color: rgb(27, 26, 25);
+}
+.submit{
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    width: 90%;
+    background-color:rgba(93, 165, 243, 0.911) ;
+}
+.submit:hover{
+    background-color: antiquewhite;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 10px 25px 10px 0;
+
+}
+label a{
+    color: antiquewhite;
+    text-decoration: none;
+}

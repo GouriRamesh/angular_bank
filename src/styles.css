@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  background-image: url(./assets/wheel.avif);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+header{
+    height: 50px;
+    background-color: rgb(106, 144, 206);
+    text-align: center;
+    color: antiquewhite;
+
+}
+footer{
+    color: antiquewhite;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(106, 144, 206);
+}
