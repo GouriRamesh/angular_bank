@@ -52,8 +52,9 @@ h3{
 }
 .submit:hover{
     background-color: antiquewhite;
+    color:rgba(93, 165, 243, 0.911)  ;
 }
-.bottom{
+/* .bottom{
     display: flex;
     justify-content: center;
     margin-top: 10px;
@@ -63,4 +64,4 @@ h3{
 label a{
     color: antiquewhite;
     text-decoration: none;
-}
+} */

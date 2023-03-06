@@ -29,11 +29,14 @@ constuctor->ngOnInit->other methods
 data binding methods
 --------------------
 1) one way binding => one directn only
-     *)ts to html=>(component to view)=>
+    *)ts to html=>(component to view)=>
              a)string interpollatn   {{}}
              b)property binding      [property_name]="data"
 
-      *)html to ts
+    *)html to ts
             a)event binding           (event_name)="method()"  
             b)$event binding          (event_name)="method($event)"    
-            c)event binding with template rendering variable        #variableName 
+            c)event binding with template rendering variable        #variableName
+2) two way binding => two directions
+    *) ngModel       [(ngModel)]="variable"
+                  FormsModule - module used to apply ngModel         

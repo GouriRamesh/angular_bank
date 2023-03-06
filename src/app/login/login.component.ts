@@ -16,36 +16,10 @@ userdetails:any={
   1002:{username:"fida",acctno:1002,password:"efg",balance:0},
   1003:{username:"hari",acctno:1003,password:"001",balance:0},
 }
-// login(){
-//   var acnum= this.acno
-//   var userdetails=this.userdetails
-//   var psw=this.psw
-//   if(acnum in userdetails){
-//     if(psw==userdetails[acnum]["password"]){
-//       alert("login success")
-//     }
-//     else{
-//       alert("password incorrect")
-//     }
-//   }
-//   else{
-//     alert("incorrect account number")
-//   }
-// }
-
-// acctnochange(event:any){
-//   this.acno=event.target.value;
-//   // console.log(this.acno);
-   
-// }
-
-// passwrdchange(event:any){
-//   this.psw=event.target.value
-// }
-login(acno:any,psw:any){
-  var acnum= acno.value
+login(){
+  var acnum= this.acno
   var userdetails=this.userdetails
-  var psw=psw.value
+  var psw=this.psw
   if(acnum in userdetails){
     if(psw==userdetails[acnum]["password"]){
       alert("login success")
@@ -58,5 +32,31 @@ login(acno:any,psw:any){
     alert("incorrect account number")
   }
 }
+
+// acctnochange(event:any){
+//   this.acno=event.target.value;
+//   // console.log(this.acno);
+   
+// }
+
+// passwrdchange(event:any){
+//   this.psw=event.target.value
+// }
+// login(acno:any,psw:any){
+//   var acnum= acno.value
+//   var userdetails=this.userdetails
+//   var psw=psw.value
+//   if(acnum in userdetails){
+//     if(psw==userdetails[acnum]["password"]){
+//       alert("login success")
+//     }
+//     else{
+//       alert("password incorrect")
+//     }
+//   }
+//   else{
+//     alert("incorrect account number")
+//   }
+// }
 
 }
