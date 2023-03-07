@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -16,6 +17,9 @@ userdetails:any={
   1002:{username:"fida",acctno:1002,password:"efg",balance:0},
   1003:{username:"hari",acctno:1003,password:"001",balance:0},
 }
+// dependency injection
+constructor(private router:Router){}
+
 login(){
   var acnum= this.acno
   var userdetails=this.userdetails
@@ -23,6 +27,8 @@ login(){
   if(acnum in userdetails){
     if(psw==userdetails[acnum]["password"]){
       alert("login success")
+      // redirection
+      this.router.navigateByUrl("homepage")
     }
     else{
       alert("password incorrect")

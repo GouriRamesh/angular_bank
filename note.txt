@@ -37,6 +37,27 @@ data binding methods
             a)event binding           (event_name)="method()"  
             b)$event binding          (event_name)="method($event)"    
             c)event binding with template rendering variable        #variableName
+
 2) two way binding => two directions
     *) ngModel       [(ngModel)]="variable"
-                  FormsModule - module used to apply ngModel         
+                  FormsModule - module used to apply ngModel 
+
+PATH SETTING
+app-routing module.ts (root module routing file)->   path is given as a object
+ {path:"",component:classname}      
+ "" ->denotes the path of landing page
+ <router outlet>           
+
+REDIRECTION IN ANGULAR   
+method => navigateByUrl(path)    
+class  => Router
+module => AppRoutingModule
+
+                             folder - file - class - methods       
+                             package  module
+
+DEPENDENCY INJECTION
+--------------------
+inside constructor
+ =>private/public(other files of the class can use)
+   (inside the class to which the file is inherirted)                             
